@@ -8,7 +8,7 @@ class Author
   end 
   
   def add_post(post)
-    binding.pry
+    #binding.pry
     post.author = self
     self.posts << post unless self.posts.include?(post)
   end 
