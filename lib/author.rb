@@ -10,6 +10,6 @@ class Author
   def add_post(post)
     binding.pry
     post.author = self
-    
+    self.posts << post unless self.posts.include?(post)
   end 
 end 
