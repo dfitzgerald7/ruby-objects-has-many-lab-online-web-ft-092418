@@ -12,4 +12,8 @@ class Author
     post.author = self
     self.posts << post unless self.posts.include?(post)
   end 
+  
+  def add_post_by_title(post)
+    
+  end 
 end 
