@@ -14,6 +14,6 @@ class Author
   end 
   
   def add_post_by_title(post)
-    Post.new(post).tap{|post| 
+    Post.new(post).tap{|post| add_post(post)}
   end 
 end 
